@@ -1,0 +1,96 @@
+MEFiter <- function( filename, password, ... ) {
+  # Works at the level of block numbers and timestamps.
+  # Assume that there are no discontinuities contained in the block range.
+  #
+  # Arguments:
+  # start: block # at which to start
+  # stop : block # at which to stop (inclusive)
+  # info : result of a call to "mef_info()"
+  library( iterators )
+  library( itertools )
+  
+  Rcpp::sourceCpp('/Users/m063341/Dropbox/Documents/Concepts/2018_06_08_LearningRcpp/Analysis/R/LearningRcpp/MEF/src/decomp_mef.cpp')
+  
+  args <- list(...)
+  for ( arg in names(args) ) {
+    switch( arg,
+            "block0" = {block0 = args[[arg]]},
+            "block1" = {block1 = args[[arg]]},
+            "time0" = {time0 = args[[arg]]},
+            "time1" = {time1 = args[[arg]]},
+            "info" = {info = args[[arg]]}
+            )
+  }
+
+  if ( !exists( "info" ) ) {
+    info <- mef_info( c(filename,password) )
+  }
+  if ( !exists( "block0" ) ) {
+    block0 <- 1
+  }
+  if ( !exists( "block1" ) ) {
+    block1 <- length( info$discontinuities )
+  }
+  if ( !exists( "time0" ) ) {
+    time0 <- 0
+  }
+  if ( !exists( "time1" ) ) {
+    time1 <- 1E20
+  }
+  size <- ceiling( 1E5/info$header$maximum_block_length )
+  microsecondsPerSample <- 1E6 / info$header$sampling_frequency
+  
+  # This seems messy and confusing with the addition of time ....
+  i <- 1
+  S <- seq( block0, block1 )
+  it <- idiv( length(S), chunkSize=size );
+  newstops <- cumsum( unlist(as.list(it)) )
+  stop <- block0 + newstops
+  NN <- length(newstops)
+  start <- c( block0, block0+newstops[1:(NN-1)] )
+
+  if ( length(start) != length(stop) ) {
+    print("ERROR: start and stop must be the same length")
+    return(NULL)
+  }
+  df <- data.frame( start, stop )
+
+  it <- iter( df, by="row" )
+  
+  nextEl <- function() {
+    # This is where decomp_mef returns data.
+#    print( paste0( time0, ' ', time1 ) )
+    n <- nextElem(it)
+    block0 <- info$ToC[3,(n$start)]
+    if ( n$stop > length(info$ToC[3,]) ) {
+      block1 <- info$header$number_of_samples
+    } else {
+      block1 <- info$ToC[3,(n$stop)]-1
+    }
+    data <- decomp_mef(c("CSC1.mef", block0, block1, "erlichda") )
+    # Check the time window.
+    blockTime <- c( info$ToC[1,(n$start)],  info$ToC[1,(n$stop)] + info$header$block_interval )
+#    print( paste0( blockTime[1], ' ', blockTime[2] ) )
+    if ( blockTime[1]<=time0 & time0<=blockTime[2] ) { # requested start is within decoded data
+      bad <- ceiling( (time0 - blockTime[1]) / microsecondsPerSample )
+      data <- data[-1:-bad]
+    }
+    if ( blockTime[1]<=time1 & time1<=blockTime[2] ) { # requested stop is within decoded data
+      bad <- ceiling( (blockTime[2] - time1) / microsecondsPerSample )
+      LL <- length(data)
+#      print( paste0( bad, ' ', LL, ' ', -(LL-bad+1) ) )
+      data <- data[-(LL-bad+1):-LL]
+    }
+    # Add the timestamp of the first value as an attribute.
+    attr( data, 't0' ) <- ToC[1,n$start]
+    attr( data, 'dt' ) <- microsecondsPerSample
+    return(data)
+  }
+  
+  cache <- list("filename"=filename, "password"=password, "info"=info )
+
+  obj <- list(nextElem=nextEl)
+  attr( obj, "cache" ) <- cache
+  class(obj) <- c('MEFiter', 'abstractiter', 'iter')
+  ihasNext( obj )
+}

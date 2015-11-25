@@ -1,0 +1,62 @@
+MEFcont <- function( filename, password, ... ) {
+  # Iterates MEFiter objects.
+  #
+  # Works at the level of contiguous stretches and block numbers.
+  # MEFiter works at the level of block numbers and timestamps.
+    library( iterators )
+    library( itertools )
+    
+    args <- list(...)
+    for ( arg in names(args) ) {
+      switch( arg,
+              "time0" = {time0 = args[[arg]]},
+              "time1" = {time1 = args[[arg]]},
+      )
+    }
+    if ( !exists( "time0" ) ) {
+      time0 <- 0
+    }
+    if ( !exists( "time1" ) ) {
+      time1 <- 1E50
+    }
+    
+    source('~/Dropbox/Documents/Concepts/2018_06_08_LearningRcpp/Analysis/R/LearningRcpp/MEF/src/MEFiter.R')
+    source('~/Dropbox/Documents/Concepts/2018_06_08_LearningRcpp/Analysis/R/LearningRcpp/mef_info.R')
+    info <- mef_info( c(filename,password) )
+    
+    i <- 1
+    # Divide the continuous regions.
+    contiguousStarts <- c( which( info$discontinuities == 1 ), ncol(info$ToC)+1 )
+    contiguousStops <- contiguousStarts
+    contiguousStarts <- contiguousStarts[-length(contiguousStarts)];
+    contiguousStops <- contiguousStops[-1]
+    
+    # Restrict based on time-window requests
+    keep <- intersect( which(contiguousStops>=time0), which(contiguousStarts<=time1) )
+    
+
+    df <- data.frame( contiguousStarts, contiguousStops )
+    
+    conts <- data.frame( start=integer(), stop=integer() )
+    df_iter <- ihasNext( iter( df, by="row" ) )
+    while ( hasNext( df_iter ) ) {
+      row <- nextElem( df_iter )
+      # Store values unique to this iterator. It will be constructed in 'nextEl' below.
+      tmp <-  data.frame( block0=row$contiguousStarts, block1=row$contiguousStops )
+      conts <- rbind( conts, tmp )
+    }
+
+    it <- iter( conts, by="row" )
+    
+    nextEl <- function() {
+      values <- nextElem( it )
+      ihasNext( MEFiter( filename, password, info=info, block0=values$block0, block1=values$block1, time0=time0, time1=time1 ) )
+    }
+    
+    cache <- list("filename"=filename, "password"=password, "info"=info )
+    
+    obj <- list(nextElem=nextEl)
+    attr( obj, "cache" ) <- cache
+    class(obj) <- c('MEFcont', 'abstractiter', 'iter')
+    ihasNext( obj )
+}

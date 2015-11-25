@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <time.h>
+
+#include <RcppCommon.h>
+#include <Rcpp.h>
+
+//  [[Rcpp::export]]
+Rcpp::NumericMatrix ToC( Rcpp::StringVector strings ) {
+	char *filename = strings(0);
+	int index_data_offset = atoi( strings(1) );
+	int number_of_index_entries = atoi( strings(2) );
+//	printf( "%d\n", index_data_offset );
+//  printf( "%d\n", number_of_index_entries );
+
+	FILE *fp = fopen( filename, "r" );
+	fseek( fp, index_data_offset, SEEK_SET );
+	unsigned char* buf = (unsigned char *)malloc( 3 * number_of_index_entries * sizeof(long unsigned int) );
+	fread( buf, sizeof("long unsigned int"), (long)(3 * number_of_index_entries), fp );
+	fclose( fp );
+
+	// Convert "buf" into a 3-column matrix.
+	unsigned long int l;
+	Rcpp::NumericMatrix ToC(3, number_of_index_entries);
+	for (int col=0; col<number_of_index_entries; col++ ) {
+	  l = 0;
+	  int offset = (col*3 + 0)*sizeof(long unsigned int);
+	  for (int i = 0; i < 8; ++i) {
+	    l = l | ((unsigned long int)buf[i+offset] << (8 * i));
+	  }
+		ToC(0,col) = l;
+	  
+	  l = 0;
+	  offset = (col*3 + 1)*sizeof(long unsigned int);
+	  for (int i = 0; i < 8; ++i) {
+	    l = l | ((unsigned long int)buf[i+offset] << (8 * i));
+	  }
+	  ToC(1,col) = l;
+	  
+	  l = 0;
+	  offset = (col*3 + 2)*sizeof(long unsigned int);
+	  for (int i = 0; i < 8; ++i) {
+	    l = l | ((unsigned long int)buf[i+offset] << (8 * i));
+	  }
+	  ToC(2,col) = l;
+	}
+	return( ToC );
+}
+

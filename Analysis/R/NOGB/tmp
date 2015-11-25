@@ -1,0 +1,500 @@
+   20  farnam
+   21  uit
+   22  farnam
+   23  sudo mysqladmin shutdown
+   24  sudo mysqladmin shutdown
+   25  mysqld &
+   26  mysql -u root
+   27  sudo mysqladmin shutdown
+   28  sudo mysqladmin shutdown
+   29  mysqld &
+   30  sudo mysqladmin shutdown
+   31  sudo mysqladmin shutdown
+   32  mysqld &
+   33  mysql -u root
+   34  mysql -u root
+   35  sudo mysqladmin shutdown
+   36  sudo mysqladmin shutdown
+   37  mysqld &
+   38  mysql -u root
+   39  sudo mysqladmin shutdown
+   40  mysql -u root
+   41  pwd
+   42  sudo mysqladmin shutdown
+   43  mysqld &
+   44  mysqld &
+   45  sudo mysqladmin shutdown
+   46  sudo mysqladmin shutdown
+   47  mysqld &
+   48  mysql -u root
+   49  history > tmp
+   50  vi tmp
+   51  pwd
+   52  mysqldump -u root --databases markdb markdb_iis markdb_hfo > markdb_all.sql
+   53  mysqldump -u root --databases db0006ae > db0006ae.sql
+   54  pwd
+   55  ls
+   56  mv db* ~/Documents/Databases/.
+   57  cd ~/Documents/Databases
+   58  ls
+   59  ls -al
+   60  farnam
+   61  farnam
+   62  farnam
+   63  farnam
+   64  farnam
+   65  farnam
+   66  farnam
+   67  farnam
+   68  farnam
+   69  farnam
+   70  farnam
+   71  farnam
+   72  farnam
+   73  farnam
+   74  farnam
+   75  farnam
+   76  farnam
+   77  farnam
+   78  farnam
+   79  farnam
+   80  farnam
+   81  farnam
+   82  farnam
+   83  farnam
+   84  farnam
+   85  farnam
+   86  inter
+   87  farna
+   88  farnam
+   89  farnam
+   90  farnam
+   91  farnam
+   92  farnam
+   93  farnam
+   94  farnam
+   95  farnam
+   96  farnam
+   97  exit
+   98  farnam
+   99  farnam
+  100  farnam
+  101  farnam
+  102  farnam
+  103  farnam
+  104  farnam
+  105  farnam
+  106  farnam
+  107  farnam
+  108  farnam
+  109  farnam
+  110  farnam
+  111  farnam
+  112  farnam
+  113  farnam
+  114  farnam
+  115  farnam
+  116  farnam
+  117  farnam
+  118  farnam
+  119  farnam
+  120  farnam
+  121  farnam
+  122  farnam
+  123  farnam
+  124  farnam
+  125  farnam
+  126  farnam
+  127  farnam
+  128  farnam
+  129  farnam
+  130  farnam
+  131  farnam
+  132  farnam
+  133  farnam
+  134  farnam
+  135  farnam
+  136  q
+  137  farnam
+  138  farnam
+  139  pwd
+  140  farnam
+  141  farnam
+  142  farnam
+  143  farnam
+  144  farnam
+  145  farnam
+  146  farnam
+  147  farnam
+  148  farnam
+  149  farnam
+  150  mysqld &
+  151  mysqld &
+  152  sudo mysqladmin shutdown
+  153  mysqld &
+  154  sudo mysqladmin shutdown
+  155  sudo mysqladmin shutdown
+  156  mysqld &
+  157  mysql -u root
+  158  farnam
+  159  pwd
+  160  cd Documents/
+  161  cd Databases/
+  162  ls
+  163  mysql -u root
+  164  mysql -u root db00087c < testHarness.sql
+  165  mysql -u root
+  166  sudo mysqladmin shutdown
+  167  mysqld &
+  168  sudo mysqladmin shutdown
+  169  sudo mysqladmin shutdown
+  170  mysqld &
+  171  sudo mysqladmin shutdown
+  172  sudo mysqladmin shutdown
+  173  mysqld &
+  174  mysqld &
+  175  mysqld &
+  176  mysqld &
+  177  sudo mysqladmin shutdown
+  178  sudo mysqladmin shutdown
+  179  sudo mysqladmin shutdown
+  180  mysqld &
+  181  mysqld &
+  182  mysqld &
+  183  mysql -u root
+  184  farnam
+  185  farnam
+  186  farnam
+  187  farnam
+  188  farnam
+  189  farnam
+  190  farnam
+  191  farnam
+  192  farnam
+  193  farnam
+  194  pwd
+  195  cd ~/Dropbox/Documents/Concepts/2017_04_26_INO/Analysis/R/YaleRats/
+  196  ls
+  197  grep 'YaleRats' *.R
+  198  grep 'YaleRats' *.R
+  199  grep 'YaleRats' *.R
+  200  pwd
+  201  grep 'host' *.R
+  202  farnam
+  203  farnam
+  204  pwd
+  205  farnam
+  206  farnam
+  207  farnam
+  208  sudo mysqladmin shutdown
+  209  sudo mysqladmin shutdown
+  210  mysql -u root
+  211  sudo mysqladmin shutdown
+  212  sudo mysqladmin shutdown
+  213  mysqld &
+  214  mysql -u root
+  215  sudo mysqladmin shutdown
+  216  mysqld &
+  217  sudo mysqladmin shutdown
+  218  sudo mysqladmin shutdown
+  219  mysqld &
+  220  mysql
+  221  mysql -u root
+  222  sudo mysqladmin shutdown
+  223  mysqld &
+  224  sudo mysqladmin shutdown
+  225  sudo mysqladmin shutdown
+  226  mysqld &
+  227  mysql -u root
+  228  farnam
+  229  farnam
+  230  cd ~/Dropbox/Documents/Personal/github/
+  231  git clone https://github.com/markrbower/markrbower.github.io
+  232  git clone https://github.com/markrbower/markrbower.github.io
+  233  git clone https://github.com/markrbower/markrbower.github.io
+  234  pwd
+  235  ls
+  236  cd markrbower.github.io/
+  237  echo "Hello World" > index.html
+  238  git add --all
+  239  git commit -m "Initial commit"
+  240  git push -u origin master
+  241  farnam
+  242  farnam
+  243  farnam
+  244  farnam
+  245  farnam
+  246  pwd
+  247  cd /tmp
+  248  ls -al
+  249  rm mysql.sock.lock
+  250  sudo rm mysql.sock.lock 
+  251  ls -al
+  252  sudo chown mysql.sock.lock m063341
+  253  man chown
+  254  sudo chown m063341 mysql.sock.lock
+  255  ls -al
+  256  pwd
+  257  cd ~/Dropbox/Documents/Concepts/2017_04_26_INO/
+  258  ls
+  259  cd Analysis/
+  260  ls
+  261  cd R
+  262  ls
+  263  cd YaleRats/
+  264  ls
+  265  grep melt .R
+  266  grep d2 .R
+  267  grep d2 *.R
+  268  farnam
+  269  sudo /Library/StartupItems/MySQLCOM/MySQLCOM stop
+  270  ps -ax | grep mysql
+  271  ps -ax | grep mysql
+  272  sudo rm /usr/local/share/mysql
+  273  sudo rm /usr/local/mysql
+  274  sudo rm -rf /usr/local/var/mysql
+  275  sudo rm -rf /usr/local/mysql*
+  276  sudo rm -rf /Library/PreferencePanes/My*
+  277  sudo vi /etc/hostconfig
+  278  rm -rf ~/Library/PreferencePanes/My*
+  279  sudo rm -rf /Library/Receipts/mysql*
+  280  sudo rm -rf /Library/Receipts/mysql*
+  281  sudo rm -rf /Library/Receipts/MySQL*
+  282  sudo rm -rf /private/var/db/receipts/*mysql*
+  283  sudo rm /etc/my.cnf
+  284  vi /etc/my.cnf
+  285  vi /etc/my.cnf
+  286  sudo vi /etc/my.cnf
+  287  mysqld &
+  288  sudo vi /etc/my.cnf
+  289  mysqld &
+  290  sudo vi /etc/my.cnf
+  291  mysqld &
+  292  sudo vi /etc/my.cnf
+  293  mysqld &
+  294  mysqld &
+  295  which mysqld
+  296  cd /usr/local
+  297  ls
+  298  sudo rm -rf mysql
+  299  mv mysql-8.0.11-macos10.13-x86_64/ mysql
+  300  sudo mv mysql-8.0.11-macos10.13-x86_64/ mysql
+  301  mysqld &
+  302  pwd
+  303  ls
+  304  cd mysql
+  305  ls
+  306  cd bin
+  307  ls
+  308  cd ..
+  309  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data --language=./share/mysql/english/ &
+  310  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data &
+  311  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ &
+  312  pwd
+  313  ls
+  314  ls share
+  315  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data --language=./share/english/ &
+  316  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ &
+  317  sudo ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ &
+  318  ps -ax | grep mysql
+  319  mysql -u root
+  320  ps -ax | grep mysql
+  321  kill -9 17283
+  322  kill -9 17283
+  323  sudo kill -9 17283
+  324  ps -ax | grep mysql
+  325  sudo ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ &
+  326  vi /etc/my.cnf
+  327  sudo vi /etc/my.cnf
+  328  sudo vi /etc/my.cnf
+  329  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ &
+  330  sudo vi /etc/my.cnf
+  331  sudo ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ &
+  332  sudo ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ &
+  333  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ &
+  334  sudo vi /etc/my.cnf
+  335  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ --initialize --user=mysql &
+  336  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ --initialize --user=mysql &
+  337  ps -ax | grep mysql
+  338  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ --user=mysql &
+  339  history > tmp
+  340  pwd
+  341  history > ~/tmp
+  342  vi ~/tmp
+  343  pwd
+  344  mysql -u root
+  345  mysql -u root -p
+  346  mysql -u mysql
+  347  mysql -u mysql -p
+  348  mysql -u mysql -p
+  349  pwd
+  350  ls
+  351  which mysql
+  352  mysql -u mysql -p
+  353  sudo mysqladmin shutdown
+  354  sudo mysqladmin -u mysql shutdown
+  355  ps -ax | grep mysql
+  356  kill -9 25694
+  357  ps -ax | grep mysql
+  358  ps -ax | grep mysql
+  359  sudo rm /usr/local/share/mysql
+  360  sudo rm /usr/local/mysql
+  361  sudo rm -rf /usr/local/var/mysql
+  362  sudo rm -rf /usr/local/mysql*
+  363  sudo rm -rf /Library/PreferencePanes/My*
+  364  sudo vi /etc/hostconfig
+  365  rm -rf ~/Library/PreferencePanes/My*
+  366  sudo rm -rf /Library/Receipts/mysql*
+  367  sudo rm -rf /Library/Receipts/MySQL*
+  368  sudo rm -rf /private/var/db/receipts/*mysql*
+  369  cd /usr/local/mysql
+  370  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ --initialize --user=mysql &
+  371  pwd
+  372  cd /Volumes/EXT_SSD/mydb/data
+  373  ls
+  374  rm *
+  375  rm -r *
+  376  ls
+  377  cd ..
+  378  ls
+  379  cd ..
+  380  ls
+  381  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ --initialize --user=mysql &
+  382  pwd
+  383  cd /usr/local/mysql
+  384  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ --initialize --user=mysql &
+  385  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ --user=mysql &
+  386  ps -ax | grep mysql
+  387  mysql -u root -p
+  388  pwd
+  389  mysql -u root
+  390  mysql -u root markdb_projectKoala < /Volumes/EXT_SSD/markdb_projectKoala.sql
+  391  cd ~
+  392  pwd
+  393  mysql -u root
+  394  mysql -u root
+  395  sudo mysqladmin shutdown
+  396  cd /Volumes/EXT_SSD/
+  397  ls
+  398  cd mydb
+  399  ls
+  400  cd data
+  401  ls
+  402  cd ../..
+  403  rm -r mydb
+  404  ls
+  405  mkdir mydb
+  406  mkdir mydb/data
+  407  ls
+  408  ls mydb
+  409  vi /etc/my.cnf
+  410  ls mydb/data
+  411  ls -al mydb/data
+  412  ls -al mydb/data
+  413  ps -ax | grep mysql
+  414  ps -ax | grep mysql
+  415  ps -ax | grep mysql
+  416  kill -9 36116
+  417  sudo kill -9 36116
+  418  ps -ax | grep mysql
+  419  kill -9 36118
+  420  sudo kill -9 36118
+  421  ps -ax | grep mysql
+  422  pwd
+  423  rm -r mydb
+  424  ps -ax | grep mysql
+  425  ps -ax | grep mysql
+  426  kill 21797
+  427  kill -9 21797
+  428  kill -9 21818
+  429  ps -ax | grep mysql
+  430  mysqld &
+  431  mysqld &
+  432  mysql -u root
+  433  mysql -u root
+  434  sudo mysqladmin shutdown
+  435  ps -ax | grep mysql
+  436  kill -9 mysqld
+  437  kill -9 22090
+  438  ps -ax | grep mysql
+  439  kill -9 22209
+  440  ps -ax | grep mysql
+  441  kill -9 22209
+  442  sudo kill -9 22209
+  443  ps -ax | grep mysql
+  444  sudo kill -9 22209
+  445  ps -ax | grep mysql
+  446  ps aux | awk '$8=="Z" {print $2}'
+  447  ps -ax | grep mysql
+  448  mysql -u root
+  449  mysqld &
+  450  ps -ax | grep mysql
+  451  sudo rm /usr/local/mysql
+  452  sudo rm -rf /usr/local/mysql*
+  453  sudo rm -rf /Library/StartupItems/MySQLCOM
+  454  sudo rm -rf /Library/PreferencePanes/My*
+  455  sudo vi /etc/hostconfig
+  456  rm -rf ~/Library/PreferencePanes/My*
+  457  sudo rm -rf /Library/Receipts/mysql*
+  458  sudo rm -rf /Library/Receipts/MySQL*
+  459  sudo rm -rf /private/var/db/receipts/*mysql*
+  460  ps -ax | grep mysql
+  461  kill -9 22209
+  462  ps -ax | grep mysql
+  463  cd /Volumes/EXT_SSD/
+  464  ls
+  465  rm tmp
+  466  rm -r mydb
+  467  mkdir mydb
+  468  mkdir mydb/data
+  469  cd /usr/local/mysql
+  470  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ --initialize --user=mysql &
+  471  ps -ax | grep mysql
+  472  mysql -u root
+  473  kill -9 35238
+  474  ps -ax | grep mysql
+  475  kill -9 35328
+  476  ps -ax | grep mysql
+  477  ps -ax | grep mysql
+  478  ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ --user=mysql
+  479  pwd
+  480  pwd
+  481  sudo ./bin/mysqld --no-defaults --basedir=. --datadir=/Volumes/EXT_SSD/mydb/data/ --language=./share/english/ --initialize --user=mysql
+  482  pwd
+  483  cd /Volumes/EXT_SSD/
+  484  ls
+  485* /usr/local/mysql/bin/mysql -u root -p
+  486  osascript -e 'tell application "System Events"
+  487   activate application "Safari"
+  488   tell process "Safari"
+  489   click pop up button 1 of group 1 of group 1 of window "Search"
+  490   tell application "System Events" to keystroke "b" using command down
+  491   key code 36
+  492   end tell
+  493   end tell'
+  494  osascript -e 'tell application "System Events"
+  495   tell process "Safari"
+  496   click button "Trust" of sheet 1 of window "Extensions"
+  497   end tell
+  498   end tell'
+  499  pwd
+  500  cd /Users/m063341/Dropbox/Documents/Concepts/2018_06_08_LearningRcpp/Analysis/R/LearningRcpp/test_package
+  501  pwd
+  502  ls
+  503  cd ..
+  504  ls
+  505  cd MSEL_original_code/
+  506  ls
+  507  pwd
+  508  ls
+  509  ls -al
+  510  pwd
+  511  pwd
+  512  cd ..
+  513  cd MEF
+  514  ls
+  515  cd src
+  516  ls
+  517  vi ToC.cpp 
+  518  mysql -u root -h "localhost"
+  519  history > tmp
