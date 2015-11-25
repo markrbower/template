@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="17">
+            <Title>Figures</Title>
+        </Document>
+        <Document ID="32">
+            <Title>Conclusion</Title>
+            <Text>Conclusion
+
+[Insert text here]</Text>
+        </Document>
+        <Document ID="25">
+            <Title>Ideas</Title>
+        </Document>
+        <Document ID="18">
+            <Title>Tables</Title>
+        </Document>
+        <Document ID="10">
+            <Title>Methods</Title>
+        </Document>
+        <Document ID="26">
+            <Title>To-Do List</Title>
+            <Text>	⁃	Uncompleted To-Do
+	✓	Completed To-Do</Text>
+        </Document>
+        <Document ID="19">
+            <Title>References</Title>
+            <Text>References
+
+[Leave this empty to use a reference manager like Zotero. Once you create a bibliography in LibreOffice/Word, paste the generated references into this part of the document]</Text>
+            <Notes>If you are using EndNote, Zotero, or Mendeley you will need to cut and paste the generated references into this part of the document.  </Notes>
+        </Document>
+        <Document ID="11">
+            <Title>Patients</Title>
+            <Text>METHODS
+Patients
+[Insert text here]</Text>
+        </Document>
+        <Document ID="27">
+            <Title>Past copies</Title>
+            <Synopsis>Duplicate important drafts into here.</Synopsis>
+        </Document>
+        <Document ID="12">
+            <Title>Methods/interventions</Title>
+            <Text>Methods
+[Insert text here]</Text>
+        </Document>
+        <Document ID="28">
+            <Title>20062014 Submitted to [journal]</Title>
+        </Document>
+        <Document ID="20">
+            <Title>Figure 1</Title>
+        </Document>
+        <Document ID="13">
+            <Title>Statistical analysis</Title>
+            <Text>Statistical analysis
+[Insert text here]</Text>
+        </Document>
+        <Document ID="3">
+            <Title>Front page</Title>
+            <Text>&lt;$Projecttitle>
+
+Running head:
+&lt;$abbr_title>
+
+Authors:
+
+[Insert authors here]
+
+Word count: &lt;$wc></Text>
+            <Notes>Populate Project meta-data settings in order to have Title and Running head (or Abbreviated title) automatically generated.
+You may also insert appropriate text at the placeholders if you don’t want Scrivener to generate title for you.</Notes>
+        </Document>
+        <Document ID="21">
+            <Title>Table 1</Title>
+            <Synopsis>After you insert Table caption, you may either make the table in Scrivener, or you may insert it in text-processor (Word etc) after compiling.</Synopsis>
+            <Text>Table 1: [insert text here]
+[insert table here]</Text>
+        </Document>
+        <Document ID="14">
+            <Title>Outcome measurements</Title>
+            <Text>Outcome measurements
+[Insert text here]</Text>
+        </Document>
+        <Document ID="4">
+            <Title>Abstract &amp; keywords</Title>
+            <Text>Abstract
+
+Objective. [Insert text here]
+
+Materials and Methods. [Insert text here]
+
+Results. [Insert text here]
+
+Discussion. [Insert text here]
+
+Keywords: &lt;$keywords></Text>
+        </Document>
+        <Document ID="22">
+            <Title>Templates</Title>
+        </Document>
+        <Document ID="15">
+            <Title>Acknowledgements</Title>
+            <Text>Acknowledgements
+
+[Insert text here]</Text>
+        </Document>
+        <Document ID="5">
+            <Title>Main content</Title>
+        </Document>
+        <Document ID="6">
+            <Title>Background and Significance</Title>
+            <Text>Background and Significance
+
+[Insert text here]</Text>
+        </Document>
+        <Document ID="30">
+            <Title>Table X</Title>
+            <Synopsis>After you insert Table caption, you may either make the table in Scrivener, or you may insert it in text-processor (Word etc) after compiling.</Synopsis>
+            <Text>Table X: [insert text here]
+[insert table here]</Text>
+        </Document>
+        <Document ID="23">
+            <Title>Cover letter</Title>
+            <Text>[NOTE ANY SPECIAL ISSUE HERE]
+
+Dear Editors:
+
+It was with great interest that I read of the recent [Call for Papers]. We are very pleased to submit to your our paper “&lt;$Projecttitle>.” This paper describes …
+
+In this paper we describe the …
+
+We believe that this paper would represent a unique contribution to the literature …, and thank you for review of this manuscript.
+
+Sincerely,
+
+&lt;Insert signature line here></Text>
+            <Notes>Outline for the Cover Letter:
+	1.	An introduction stating the title of the manuscript and the journal to which you are submitting.
+	2.	The reason why your study is important and relevant to the journal’s readership or field.
+	3.	The question your research answers.
+	4.	Your major experimental results and overall findings.
+	5.	The most important conclusions that can be drawn from your research.
+	6.	A statement that the manuscript has not been published and is not under consideration for publication in any other journal
+	7.	A statement that all authors approved the manuscript and its submission to the journal.
+	8.	Any other details that will encourage the editor to send your manuscript for review.
+
+Write one or more sentences to address each of these points. You will revise and polish these sentences to complete your cover letter. Detailed instructions on how to write a good cover letter can be found here:
+http://www.biosciencewriters.com/Writing-Cover-Letters-for-Scientific-Manuscripts.aspx
+</Notes>
+        </Document>
+        <Document ID="16">
+            <Title>Figure legends</Title>
+            <Text>Figure Legends
+Figure 1: [insert text here]
+Figure 2: [insert text here]</Text>
+        </Document>
+        <Document ID="31">
+            <Title>Methods</Title>
+            <Text>Methods
+
+[Insert text here]</Text>
+        </Document>
+        <Document ID="24">
+            <Title>Response to Reviewers' Comments</Title>
+            <Text>Response to Reviewers’ Comments
+
+We appreciate the detailed comments and suggestions from the reviewers. We have provided our responses below the corresponding comment. 
+
+Reviewer 1
+[Insert reviewers’ comments here]
+
+[Authors]
+
+&lt;$fullname></Text>
+        </Document>
+        <Document ID="8">
+            <Title>Results</Title>
+            <Text>Results
+
+[Insert text here]</Text>
+        </Document>
+        <Document ID="9">
+            <Title>Discussion</Title>
+            <Text>Discussion
+
+[Insert text here]</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>
