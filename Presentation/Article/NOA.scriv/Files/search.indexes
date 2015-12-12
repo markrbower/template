@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="17">
-            <Title>Figures</Title>
+        <Document ID="8">
+            <Title>Results</Title>
+            <Text>Results
+
+[Insert text here]</Text>
         </Document>
         <Document ID="32">
             <Title>Conclusion</Title>
@@ -175,11 +178,8 @@ Reviewer 1
 
 &lt;$fullname></Text>
         </Document>
-        <Document ID="8">
-            <Title>Results</Title>
-            <Text>Results
-
-[Insert text here]</Text>
+        <Document ID="17">
+            <Title>Figures</Title>
         </Document>
         <Document ID="9">
             <Title>Discussion</Title>
