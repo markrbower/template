@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
+<<<<<<< HEAD:Presentation/Article/template.scriv/Files/search.indexes
         <Document ID="54">
             <Title>Statistics</Title>
+=======
+        <Document ID="8">
+            <Title>Results</Title>
+            <Text>Results
+
+[Insert text here]</Text>
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/Files/search.indexes
         </Document>
         <Document ID="61">
             <Title>newCode.R</Title>
@@ -258,12 +266,15 @@ Reviewer 1
         </Document>
         <Document ID="17">
             <Title>Figures</Title>
+<<<<<<< HEAD:Presentation/Article/template.scriv/Files/search.indexes
         </Document>
         <Document ID="32">
             <Title>Conclusion</Title>
             <Text>Conclusion
 
 [Insert text here]</Text>
+=======
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/Files/search.indexes
         </Document>
         <Document ID="25">
             <Title>Ideas</Title>

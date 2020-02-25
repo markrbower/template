@@ -1,5 +1,10 @@
+<<<<<<< HEAD:Presentation/Article/template.scriv/template.scrivx
 <?xml version="1.0" encoding="UTF-8"?>
 <ScrivenerProject Version="1.5" Creator="SCRMAC-2.8-26295" Device="R5010903" Modified="2017-05-13 07:05:46 -0600" ModID="3A6817CA-66F3-47BB-AD3A-8A8BD88972F5">
+=======
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.7-26106" Device="R5010903" Modified="2015-12-12 15:25:55 -0700" ModID="F874230E-EB45-4D5C-A3CA-56835B6BDCF0">
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/NOA.scrivx
     <Binder>
         <BinderItem ID="0" UUID="D322106C-D095-463C-A481-7DDE9976CD8E" Type="DraftFolder" Created="2015-11-24 16:13:34 -0700" Modified="2015-11-24 16:13:34 -0700">
             <Title>Draft</Title>
@@ -28,7 +33,23 @@
                 </OutlinerExpandedState>
             </CorkboardAndOutliner>
             <Children>
+<<<<<<< HEAD:Presentation/Article/template.scriv/template.scrivx
                 <BinderItem ID="4" UUID="FFF3B74B-BF7C-45D0-B5A1-47AAF70B72F5" Type="Text" Created="2015-11-24 16:13:34 -0700" Modified="2017-05-13 06:14:42 -0600">
+=======
+                <BinderItem ID="3" UUID="99BA1532-14FA-4D27-B980-B8A233C06D4D" Type="Text" Created="2015-11-24 16:13:34 -0700" Modified="2015-11-24 16:13:34 -0700">
+                    <Title>Front page</Title>
+                    <MetaData>
+                        <PageBreakBefore>Yes</PageBreakBefore>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <CompileAsIs>Yes</CompileAsIs>
+                        <NotesTextSelection>235,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>44,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="4" UUID="FFF3B74B-BF7C-45D0-B5A1-47AAF70B72F5" Type="Text" Created="2015-11-24 16:13:34 -0700" Modified="2015-11-24 16:13:34 -0700">
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/NOA.scrivx
                     <Title>Abstract &amp; keywords</Title>
                     <MetaData>
                         <PageBreakBefore>Yes</PageBreakBefore>
@@ -794,7 +815,11 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2014-06-19 06:28:32 -0600" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+<<<<<<< HEAD:Presentation/Article/template.scriv/template.scrivx
         <PreviousSession Words="0" Characters="0" Date="2017-05-13 06:05:51 -0600"></PreviousSession>
+=======
+        <PreviousSession Words="0" Characters="0" Date="2015-12-12 15:24:26 -0700"></PreviousSession>
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/NOA.scrivx
     </ProjectTargets>
     <TemplateFolderUUID>F7AC1BC1-1F24-42C2-831A-D59F30E36D2E</TemplateFolderUUID>
     <PrintSettings PaperSize="595.200012,841.799988" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>

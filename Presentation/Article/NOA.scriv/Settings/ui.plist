@@ -82,6 +82,7 @@
 			<string>423 169 475 522 0 0 1280 777 </string>
 		</dict>
 	</dict>
+<<<<<<< HEAD:Presentation/Article/template.scriv/Settings/ui.plist
 	<key>RecentMoveTos</key>
 	<array>
 		<integer>2</integer>
@@ -94,6 +95,16 @@
 		<string>Standard Manuscript Format</string>
 	</dict>
 	<key>UnhoistedBinderState</key>
+=======
+	<key>SCRSelectedCompileOptionsInfoSaveName</key>
+	<dict>
+		<key>Tag</key>
+		<integer>4</integer>
+		<key>Title</key>
+		<string>Original</string>
+	</dict>
+	<key>binderSelection</key>
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/Settings/ui.plist
 	<array>
 		<integer>0</integer>
 		<integer>4</integer>
@@ -320,6 +331,7 @@
 				<key>ViewMode</key>
 				<integer>0</integer>
 			</dict>
+<<<<<<< HEAD:Presentation/Article/template.scriv/Settings/ui.plist
 			<dict>
 				<key>BinderDocIDs</key>
 				<array>
@@ -1108,18 +1120,43 @@
 		</array>
 	</dict>
 	<key>mainDocumentEditor.outlinerColumnsState</key>
+=======
+		</array>
+	</dict>
+	<key>supportingDocumentEditor.outlinerColumnsState</key>
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/Settings/ui.plist
 	<dict>
 		<key>order</key>
 		<array>
 			<string>title</string>
 			<string>label</string>
+<<<<<<< HEAD:Presentation/Article/template.scriv/Settings/ui.plist
 			<string>allKeywords</string>
 			<string>status</string>
 			<string>modifiedDate</string>
+=======
+			<string>status</string>
+			<string>createdDate</string>
+			<string>modifiedDate</string>
+			<string>words</string>
+			<string>characters</string>
+			<string>includeInExport</string>
+			<string>pageBreakBefore</string>
+			<string>compileAsIs</string>
+			<string>targetCount</string>
+			<string>targetCountType</string>
+			<string>progress</string>
+			<string>totalWords</string>
+			<string>totalCharacters</string>
+			<string>allKeywords</string>
+			<string>totalTargetCount</string>
+			<string>totalProgress</string>
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/Settings/ui.plist
 		</array>
 		<key>widths</key>
 		<dict>
 			<key>allKeywords</key>
+<<<<<<< HEAD:Presentation/Article/template.scriv/Settings/ui.plist
 			<real>101.5</real>
 			<key>label</key>
 			<real>93.5</real>
@@ -2049,6 +2086,43 @@
 			<real>93.92578125</real>
 			<key>title</key>
 			<real>246</real>
+=======
+			<real>64</real>
+			<key>characters</key>
+			<real>46</real>
+			<key>compileAsIs</key>
+			<real>110.841796875</real>
+			<key>createdDate</key>
+			<real>53</real>
+			<key>includeInExport</key>
+			<real>20</real>
+			<key>label</key>
+			<real>114.296875</real>
+			<key>modifiedDate</key>
+			<real>50</real>
+			<key>pageBreakBefore</key>
+			<real>66</real>
+			<key>progress</key>
+			<real>50.041019439697266</real>
+			<key>status</key>
+			<real>93.92578125</real>
+			<key>targetCount</key>
+			<real>50</real>
+			<key>targetCountType</key>
+			<real>50</real>
+			<key>title</key>
+			<real>246</real>
+			<key>totalCharacters</key>
+			<real>96</real>
+			<key>totalProgress</key>
+			<real>64</real>
+			<key>totalTargetCount</key>
+			<real>64</real>
+			<key>totalWords</key>
+			<real>72</real>
+			<key>words</key>
+			<real>40</real>
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/Settings/ui.plist
 		</dict>
 	</dict>
 	<key>supportingDocumentEditor.outlinerState</key>
@@ -2057,9 +2131,15 @@
 		<integer>10</integer>
 	</array>
 	<key>supportingDocumentEditor.scrollRect</key>
+<<<<<<< HEAD:Presentation/Article/template.scriv/Settings/ui.plist
 	<string>{{0, 0}, {672, 331}}</string>
 	<key>supportingDocumentEditor.selectedItemIDs</key>
 	<array/>
+=======
+	<string>{{0, 0}, {743, 624}}</string>
+	<key>supportingDocumentEditor.selectedRanges</key>
+	<string>{44, 0}</string>
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/Settings/ui.plist
 	<key>supportingDocumentEditor.textEditorState</key>
 	<dict>
 		<key>hasMultiplePages</key>

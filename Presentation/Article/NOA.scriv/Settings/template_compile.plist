@@ -1008,5 +1008,10 @@ p.shot {text-align:left; text-indent:0; margin: 12pt 0pt 0pt 0pt; text-transform
 	<false/>
 	<key>SCRCompileVariableReplacementsKey</key>
 	<array/>
+<<<<<<< HEAD:Presentation/Article/template.scriv/Settings/compile.plist
+=======
+	<key>SCRTemplateCompileSettingsTitle</key>
+	<string>Scientific Paper - DJV</string>
+>>>>>>> 704244e21f83826830e659524a16c651cacfeef8:Presentation/Article/NOA.scriv/Settings/template_compile.plist
 </dict>
 </plist>
